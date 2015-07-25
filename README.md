@@ -6,7 +6,11 @@ A fast simple way to transpose delimited (single- or multi-character) text files
 If you can make it "go" faster, please submit a pull request.
 
 Note: works in memory. For larger files than can fit in memory, you can use:
-cut -f 1-100 yourbigfile | transpose | file1<br>
-cut -f 101-200 yourbigfile | transpose | file2<br>
-...<br>
-cat file1 file2 fileN<br>
+
+cut -f 1-100 yourbigfile | transpose | file1
+
+cut -f 101-200 yourbigfile | transpose | file2
+
+...
+
+cat file1 file2 fileN
