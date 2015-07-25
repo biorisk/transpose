@@ -13,4 +13,4 @@ cut -f 101-200 yourbigfile | transpose > file2
 
 ...
 
-cat file1 file2 . . . fileN
+cat file1 file2 . . . fileN > new_transposed_file
