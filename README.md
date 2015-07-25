@@ -7,9 +7,9 @@ If you can make it "go" faster, please submit a pull request.
 
 **Note:** works in memory. For larger files than can fit in memory, you can use:
 
-cut -f 1-100 yourbigfile | transpose | file1
+cut -f 1-100 yourbigfile | transpose > file1
 
-cut -f 101-200 yourbigfile | transpose | file2
+cut -f 101-200 yourbigfile | transpose > file2
 
 ...
 
